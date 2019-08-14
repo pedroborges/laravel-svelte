@@ -1,6 +1,6 @@
 <script>
     import { contactRules } from '../validation/contact'
-    import { Inertia, rememberedState } from 'inertia-svelte'
+    import { Inertia, remember } from 'inertia-svelte'
     import { validate } from 'formee'
     import Layout from '@/Shared/Layout.svelte'
 
@@ -11,7 +11,7 @@
     }
 
     let errors = {}
-    let form = rememberedState({ ...initialFormData })
+    let form = remember({ ...initialFormData })
     const resetForm = () => $form = { ...initialFormData }
 
     function sendMessage({ target }) {

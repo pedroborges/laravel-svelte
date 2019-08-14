@@ -2,7 +2,7 @@ import Inertia from 'inertia-svelte'
 
 const app = document.getElementById('app')
 
-export default new Inertia({
+new Inertia({
     target: app,
     props: {
         initialPage: JSON.parse(app.dataset.page),
