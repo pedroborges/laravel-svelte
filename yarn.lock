@@ -655,6 +655,18 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
+"@inertiajs/inertia-svelte@inertiajs/inertia-svelte#inertia-housekeeping":
+  version "0.1.0"
+  resolved "https://codeload.github.com/inertiajs/inertia-svelte/tar.gz/60b2fdab49a0ed4b69b2f3e3600e39551bab0443"
+
+"@inertiajs/inertia@^0.1.1":
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/@inertiajs/inertia/-/inertia-0.1.1.tgz#86d7296a4bac0c7876fcb6aa281ef6c79415cdbc"
+  integrity sha512-PcaT1T3bNMfN/3ttQW9JOGXKpKM0Bqc69PuWh0Qp0V6c7hZMRE0vJthOKIRW35FpEDwsH6lArpYT7yO0FC6cYg==
+  dependencies:
+    axios "^0.18.0"
+    nprogress "^0.2.0"
+
 "@mrmlnc/readdir-enhanced@^2.2.1":
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/@mrmlnc/readdir-enhanced/-/readdir-enhanced-2.2.1.tgz#524af240d1a360527b730475ecfa1344aa540dde"
@@ -3296,19 +3308,6 @@ indexes-of@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/indexes-of/-/indexes-of-1.0.1.tgz#f30f716c8e2bd346c7b67d3df3915566a7c05607"
   integrity sha1-8w9xbI4r00bHtn0985FVZqfAVgc=
-
-inertia-svelte@inertiajs/inertia-svelte:
-  version "0.1.0"
-  resolved "https://codeload.github.com/inertiajs/inertia-svelte/tar.gz/9513b28008d53d1bee67107bcc8c151d6c3de06c"
-  dependencies:
-    inertia inertiajs/inertia
-
-inertia@inertiajs/inertia:
-  version "0.1.0"
-  resolved "https://codeload.github.com/inertiajs/inertia/tar.gz/a515eaee3ba716c7773b994fb9850a613cb4f1a7"
-  dependencies:
-    axios "^0.18.0"
-    nprogress "^0.2.0"
 
 infer-owner@^1.0.3:
   version "1.0.4"

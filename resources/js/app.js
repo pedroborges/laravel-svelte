@@ -1,8 +1,8 @@
-import Inertia from 'inertia-svelte'
+import { InertiaApp } from '@inertiajs/inertia-svelte'
 
 const app = document.getElementById('app')
 
-new Inertia({
+new InertiaApp({
     target: app,
     props: {
         initialPage: JSON.parse(app.dataset.page),

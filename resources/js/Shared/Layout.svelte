@@ -1,5 +1,5 @@
 <script>
-    import { InertiaLink } from 'inertia-svelte'
+    import { InertiaLink } from '@inertiajs/inertia-svelte'
 
     export let title;
 </script>

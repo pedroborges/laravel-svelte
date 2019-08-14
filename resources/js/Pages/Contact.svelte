@@ -1,6 +1,7 @@
 <script>
     import { contactRules } from '../validation/contact'
-    import { Inertia, remember } from 'inertia-svelte'
+    import { Inertia } from '@inertiajs/inertia'
+    import { remember } from '@inertiajs/inertia-svelte'
     import { validate } from 'formee'
     import Layout from '@/Shared/Layout.svelte'
 

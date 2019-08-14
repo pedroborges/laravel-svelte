@@ -11,9 +11,10 @@
     },
     "devDependencies": {
         "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+        "@inertiajs/inertia": "^0.1.1",
+        "@inertiajs/inertia-svelte": "inertiajs/inertia-svelte#inertia-housekeeping",
         "cross-env": "^5.1",
         "formee": "^1.0.0",
-        "inertia-svelte": "inertiajs/inertia-svelte",
         "laravel-mix": "^4.0.7",
         "laravel-mix-purgecss": "^4.1.0",
         "laravel-mix-tailwind": "^0.1.0",
